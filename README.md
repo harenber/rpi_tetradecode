@@ -27,4 +27,11 @@ docker run -p 127.0.0.1:5920:5920 --device=/dev/bus/usb:/dev/bus/usb --device /d
 
 and connect a vncviewer to  127.0.0.1:5920, the password will be TestVNC
 
+Arrange the windows and start the example as described in the article. 
+
 Enjoy!
+
+**IMPORTANT**
+
+Use this at your own risk! I shall not be responsible for anything, especially not for any damage to your hardware 
+or legal issue you might have in your jurisdiction. Obey all laws. 
