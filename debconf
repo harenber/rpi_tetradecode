@@ -1,0 +1,85 @@
+libpam-modules	libpam-modules/disable-screensaver	error	
+libssl1.1:armhf	libssl1.1/restart-failed	error	
+tzdata	tzdata/Zones/Australia	select	
+libpam0g:armhf	libpam0g/restart-services	string	
+keyboard-configuration	keyboard-configuration/layout	select	
+fontconfig-config	fontconfig/hinting_type	select	Native
+tzdata	tzdata/Zones/Europe	select	
+ucf	ucf/show_diff	note	
+keyboard-configuration	keyboard-configuration/optionscode	string	
+libc6	glibc/restart-failed	error	
+libc6:armhf	glibc/restart-failed	error	
+ucf	ucf/changeprompt	select	keep_current
+tzdata	tzdata/Zones/Etc	select	UTC
+base-passwd	base-passwd/group-add	boolean	true
+ca-certificates	ca-certificates/enable_crts	multiselect	mozilla/ACCVRAIZ1.crt, mozilla/AC_RAIZ_FNMT-RCM.crt, mozilla/Actalis_Authentication_Root_CA.crt, mozilla/AddTrust_External_Root.crt, mozilla/AffirmTrust_Commercial.crt, mozilla/AffirmTrust_Networking.crt, mozilla/AffirmTrust_Premium.crt, mozilla/AffirmTrust_Premium_ECC.crt, mozilla/Amazon_Root_CA_1.crt, mozilla/Amazon_Root_CA_2.crt, mozilla/Amazon_Root_CA_3.crt, mozilla/Amazon_Root_CA_4.crt, mozilla/Atos_TrustedRoot_2011.crt, mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt, mozilla/Baltimore_CyberTrust_Root.crt, mozilla/Buypass_Class_2_Root_CA.crt, mozilla/Buypass_Class_3_Root_CA.crt, mozilla/CA_Disig_Root_R2.crt, mozilla/CFCA_EV_ROOT.crt, mozilla/COMODO_Certification_Authority.crt, mozilla/COMODO_ECC_Certification_Authority.crt, mozilla/COMODO_RSA_Certification_Authority.crt, mozilla/Certigna.crt, mozilla/Certinomis_-_Root_CA.crt, mozilla/Certplus_Class_2_Primary_CA.crt, mozilla/Certum_Trusted_Network_CA.crt, mozilla/Certum_Trusted_Network_CA_2.crt, mozilla/Chambers_of_Commerce_Root_-_2008.crt, mozilla/Comodo_AAA_Services_root.crt, mozilla/Cybertrust_Global_Root.crt, mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt, mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt, mozilla/DST_Root_CA_X3.crt, mozilla/Deutsche_Telekom_Root_CA_2.crt, mozilla/DigiCert_Assured_ID_Root_CA.crt, mozilla/DigiCert_Assured_ID_Root_G2.crt, mozilla/DigiCert_Assured_ID_Root_G3.crt, mozilla/DigiCert_Global_Root_CA.crt, mozilla/DigiCert_Global_Root_G2.crt, mozilla/DigiCert_Global_Root_G3.crt, mozilla/DigiCert_High_Assurance_EV_Root_CA.crt, mozilla/DigiCert_Trusted_Root_G4.crt, mozilla/E-Tugra_Certification_Authority.crt, mozilla/EC-ACC.crt, mozilla/EE_Certification_Centre_Root_CA.crt, mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt, mozilla/Entrust_Root_Certification_Authority.crt, mozilla/Entrust_Root_Certification_Authority_-_EC1.crt, mozilla/Entrust_Root_Certification_Authority_-_G2.crt, mozilla/GDCA_TrustAUTH_R5_ROOT.crt, mozilla/GeoTrust_Global_CA.crt, mozilla/GeoTrust_Primary_Certification_Authority.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt, mozilla/GeoTrust_Universal_CA.crt, mozilla/GeoTrust_Universal_CA_2.crt, mozilla/GlobalSign_ECC_Root_CA_-_R4.crt, mozilla/GlobalSign_ECC_Root_CA_-_R5.crt, mozilla/GlobalSign_Root_CA.crt, mozilla/GlobalSign_Root_CA_-_R2.crt, mozilla/GlobalSign_Root_CA_-_R3.crt, mozilla/GlobalSign_Root_CA_-_R6.crt, mozilla/Global_Chambersign_Root_-_2008.crt, mozilla/Go_Daddy_Class_2_CA.crt, mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt, mozilla/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.crt, mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt, mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2015.crt, mozilla/Hongkong_Post_Root_CA_1.crt, mozilla/ISRG_Root_X1.crt, mozilla/IdenTrust_Commercial_Root_CA_1.crt, mozilla/IdenTrust_Public_Sector_Root_CA_1.crt, mozilla/Izenpe.com.crt, mozilla/LuxTrust_Global_Root_2.crt, mozilla/Microsec_e-Szigno_Root_CA_2009.crt, mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt, mozilla/Network_Solutions_Certificate_Authority.crt, mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt, mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt, mozilla/OISTE_WISeKey_Global_Root_GC_CA.crt, mozilla/QuoVadis_Root_CA.crt, mozilla/QuoVadis_Root_CA_1_G3.crt, mozilla/QuoVadis_Root_CA_2.crt, mozilla/QuoVadis_Root_CA_2_G3.crt, mozilla/QuoVadis_Root_CA_3.crt, mozilla/QuoVadis_Root_CA_3_G3.crt, mozilla/SSL.com_EV_Root_Certification_Authority_ECC.crt, mozilla/SSL.com_EV_Root_Certification_Authority_RSA_R2.crt, mozilla/SSL.com_Root_Certification_Authority_ECC.crt, mozilla/SSL.com_Root_Certification_Authority_RSA.crt, mozilla/SZAFIR_ROOT_CA2.crt, mozilla/SecureSign_RootCA11.crt, mozilla/SecureTrust_CA.crt, mozilla/Secure_Global_CA.crt, mozilla/Security_Communication_RootCA2.crt, mozilla/Security_Communication_Root_CA.crt, mozilla/Sonera_Class_2_Root_CA.crt, mozilla/Staat_der_Nederlanden_EV_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt, mozilla/Staat_der_Nederlanden_Root_CA_-_G3.crt, mozilla/Starfield_Class_2_CA.crt, mozilla/Starfield_Root_Certificate_Authority_-_G2.crt, mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt, mozilla/SwissSign_Gold_CA_-_G2.crt, mozilla/SwissSign_Silver_CA_-_G2.crt, mozilla/T-TeleSec_GlobalRoot_Class_2.crt, mozilla/T-TeleSec_GlobalRoot_Class_3.crt, mozilla/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.crt, mozilla/TWCA_Global_Root_CA.crt, mozilla/TWCA_Root_Certification_Authority.crt, mozilla/Taiwan_GRCA.crt, mozilla/TeliaSonera_Root_CA_v1.crt, mozilla/TrustCor_ECA-1.crt, mozilla/TrustCor_RootCert_CA-1.crt, mozilla/TrustCor_RootCert_CA-2.crt, mozilla/Trustis_FPS_Root_CA.crt, mozilla/USERTrust_ECC_Certification_Authority.crt, mozilla/USERTrust_RSA_Certification_Authority.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt, mozilla/VeriSign_Universal_Root_Certification_Authority.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt, mozilla/XRamp_Global_CA_Root.crt, mozilla/certSIGN_ROOT_CA.crt, mozilla/ePKI_Root_Certification_Authority.crt, mozilla/thawte_Primary_Root_CA.crt, mozilla/thawte_Primary_Root_CA_-_G2.crt, mozilla/thawte_Primary_Root_CA_-_G3.crt
+tzdata	tzdata/Zones/Asia	select	
+tzdata	tzdata/Areas	select	Etc
+keyboard-configuration	keyboard-configuration/unsupported_config_layout	boolean	true
+libc6	glibc/kernel-too-old	error	
+libc6:armhf	glibc/kernel-too-old	error	
+keyboard-configuration	keyboard-configuration/unsupported_options	boolean	true
+libc6	libraries/restart-without-asking	boolean	false
+libc6:armhf	libraries/restart-without-asking	boolean	false
+libpam0g:armhf	libraries/restart-without-asking	boolean	false
+base-passwd	base-passwd/group-remove	boolean	true
+libc6	glibc/restart-services	string	
+libc6:armhf	glibc/restart-services	string	
+ucf	ucf/changeprompt_threeway	select	keep_current
+base-passwd	base-passwd/group-move	boolean	true
+keyboard-configuration	keyboard-configuration/switch	select	No temporary switch
+base-passwd	base-passwd/user-add	boolean	true
+tzdata	tzdata/Zones/Atlantic	select	
+libpam0g:armhf	libpam0g/restart-failed	error	
+keyboard-configuration	keyboard-configuration/unsupported_layout	boolean	true
+keyboard-configuration	keyboard-configuration/xkb-keymap	select	us
+debconf	debconf/frontend	select	Dialog
+keyboard-configuration	keyboard-configuration/variant	select	English (US)
+tzdata	tzdata/Zones/Africa	select	
+keyboard-configuration	keyboard-configuration/layoutcode	string	us
+libpam-runtime	libpam-runtime/override	boolean	false
+keyboard-configuration	keyboard-configuration/variantcode	string	
+ucf	ucf/conflicts_found	error	
+base-passwd	base-passwd/user-change-gid	boolean	true
+tzdata	tzdata/Zones/US	select	
+iproute2	iproute2/setcaps	boolean	false
+keyboard-configuration	keyboard-configuration/unsupported_config_options	boolean	true
+libc6	glibc/kernel-not-supported	note	
+libc6:armhf	glibc/kernel-not-supported	note	
+base-passwd	base-passwd/user-move	boolean	true
+tzdata	tzdata/Zones/Antarctica	select	
+tzdata	tzdata/Zones/Indian	select	
+ca-certificates	ca-certificates/trust_new_crts	select	yes
+libc6	glibc/upgrade	boolean	true
+libc6:armhf	glibc/upgrade	boolean	true
+adduser	adduser/homedir-permission	boolean	true
+libssl1.1:armhf	libssl1.1/restart-services	string	
+tzdata	tzdata/Zones/SystemV	select	
+keyboard-configuration	keyboard-configuration/store_defaults_in_debconf_db	boolean	true
+libc6	glibc/disable-screensaver	error	
+libc6:armhf	glibc/disable-screensaver	error	
+libpam-runtime	libpam-runtime/profiles	multiselect	unix, systemd
+libpam0g:armhf	libpam0g/xdm-needs-restart	error	
+dash	dash/sh	boolean	true
+base-passwd	base-passwd/user-change-home	boolean	true
+keyboard-configuration	keyboard-configuration/modelcode	string	pc105
+base-passwd	base-passwd/user-change-gecos	boolean	true
+keyboard-configuration	keyboard-configuration/toggle	select	No toggling
+fontconfig-config	fontconfig/enable_bitmaps	boolean	false
+libpam-runtime	libpam-runtime/no_profiles_chosen	error	
+keyboard-configuration	keyboard-configuration/altgr	select	The default for the keyboard layout
+keyboard-configuration	keyboard-configuration/ctrl_alt_bksp	boolean	false
+fontconfig-config	fontconfig/subpixel_rendering	select	Automatic
+fontconfig-config	fontconfig/hinting_style	select	hintslight
+base-passwd	base-passwd/user-remove	boolean	true
+base-passwd	base-passwd/group-change-gid	boolean	true
+tzdata	tzdata/Zones/America	select	
+ca-certificates	ca-certificates/new_crts	multiselect	
+keyboard-configuration	keyboard-configuration/model	select	Generic 105-key PC (intl.)
+base-passwd	base-passwd/user-change-uid	boolean	true
+keyboard-configuration	keyboard-configuration/compose	select	No compose key
+debconf	debconf/priority	select	high
+base-passwd	base-passwd/user-change-shell	boolean	true
+tzdata	tzdata/Zones/Arctic	select	
+tzdata	tzdata/Zones/Pacific	select	
+libpam-runtime	libpam-runtime/conflicts	error	
